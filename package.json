@@ -1,13 +1,13 @@
 {
     "name": "parse-national-id",
     "version": "0.0.1",
-    "description": "",
+    "description": "This library parses Egyptian national ID and extracts data from it.",
     "author": "Ahmed Saleh",
     "license": "MIT",
     "keywords": [],
     "private": false,
     "repository": {
-      "url": "https://github.com/ahmedsaleh020/parse-national-id/tree/main"
+      "url": "https://github.com/ahmedsaleh020/parse-national-id"
     },
     "type": "module",
     "main": "./index.js",
