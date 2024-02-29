@@ -8,7 +8,7 @@ for example :
 
 * parseNationalId("30207072500379");
   
-*Output : 
+* Output : 
 {
   birthDay: '07',
   birthMonth: '07',
@@ -25,7 +25,7 @@ for example :
 
 * parseNationalId("302070725003");
   
-*Output : 
+* Output : 
  Null
 
 
