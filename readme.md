@@ -5,8 +5,10 @@
 <h2>Features:</h2>
 Allows the user to play Rock, Paper, Scissors against the computer.
 Visually appealing interface with responsive design.
+
 <h2>Installation:</h2> 
-Clone the repository: git clone https://github.com/your-username/rock-paper-scissors.git
+Clone the repository: git clone https://github.com/ahmedsaleh020/parse-national-id.git
+
 Navigate to the project directory: cd parse-national-id
 
 <h2>Usage:</h2> 
