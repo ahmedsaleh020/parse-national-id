@@ -1,0 +1,21 @@
+{
+    "name": "parse-national-id",
+    "version": "0.0.1",
+    "description": "",
+    "author": "Ahmed Saleh",
+    "license": "MIT",
+    "keywords": [],
+    "private": false,
+    "repository": {
+      "url": "github-url"
+    },
+    "type": "module",
+    "main": "./index.js",
+    "module": "./index.js",
+    "exports": {
+      ".": {
+        "import": "./index.js",
+        "default": "./index.js"
+      }
+    }
+  }
