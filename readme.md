@@ -3,8 +3,6 @@
 <p></p>
 
 <h2>Features:</h2>
-Allows the user to play Rock, Paper, Scissors against the computer.
-Visually appealing interface with responsive design.
 
 <h2>Installation:</h2> 
 Clone the repository: git clone https://github.com/ahmedsaleh020/parse-national-id.git
