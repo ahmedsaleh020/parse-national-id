@@ -60,6 +60,7 @@ export function parseNationalId(id) {
   }
 
   if (
+    !(id.slice(7, 9) in cities) ||
     Number(id[id.length - 1]) > 9 ||
     Number(id[id.length - 1]) < 1 ||
     id.length != 14
