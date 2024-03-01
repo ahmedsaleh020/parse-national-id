@@ -26,7 +26,7 @@ This library parses Egyptian national ID and extracts data from it.
 
 ## Usage
 
-The library exports a function called `parseNationalId` that takes one parameter (the ID) as a string and returns the parse result in an object in the case of ID is valid, otherwise returns null.
+The library exports a function called `parseNationalId` that takes Two parameters (the ID) as a string and A default Parameter for the language as a string and returns the parse result in an object in the case of ID is valid, otherwise returns null.
 
 example :
 
@@ -40,9 +40,27 @@ console.log(result);
 //   birthDay: '07',
 //   birthMonth: '07',
 //   birthYear: '2002',
+//   birthDate: '07/07/2002',
+//   birthOrder: '3',
+//   gender: 'Male',
+//   birthCity: 'Asyut'
+// }
+```
+
+```js
+import { parseNationalId } from "parse-national-id";
+
+const result = parseNationalId("30207072500379", "ar");
+
+console.log(result);
+// {
+//   birthDay: '07',
+//   birthMonth: '07',
+//   birthYear: '2002',
+//   birthDate: '07/07/2002',
 //   birthOrder: '3',
 //   gender: 'ذكر',
-//   birthCity: 'اسيوط'
+//   birthCity: 'أسيوط'
 // }
 ```
 
